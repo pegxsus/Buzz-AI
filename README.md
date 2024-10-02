@@ -1,7 +1,7 @@
 
 # Buzz AI
 
-Focus Reader 2.0 is a browser extension designed to enhance reading concentration by dynamically highlighting text, helping users maintain focus and read content more effectively. Ideal for improving focus during long reading sessions on the web.
+Buzz AI revolutionizes online shopping by letting you shop with your voice.  Imagine browsing and buying without lifting a finger! Buzz AI transforms retail websites into an interactive, voice-powered experience.
 
 # Inspiration
 
