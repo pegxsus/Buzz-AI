@@ -4,16 +4,16 @@
     "description": "Navigate the Verizon website using only the power of your voice and natural language.",
     "version": "0.0.1",
     "icons": {
-        "32": "logo/verizon-logo-32.png",
-        "48": "logo/verizon-logo-48.png",
-        "128": "logo/verizon-logo-128.png",
-        "256": "logo/verizon-logo-256.webp",
-        "360": "logo/verizon-logo-360.png"
+        "32": "logo/32x32.png",
+        "48": "logo/48x48.png",
+        "128": "logo/128x128.png",
+        "256": "logo/256x256.webp",
+        "360": "logo/360x360.png"
     },
     "options_page": "settings/settings.html",
     "action": {
         "default_title": "Clickless Verizon",
-        "default_icon": "logo/verizon-logo-32.png",
+        "default_icon": "logo/32x32.png",
         "default_popup": "gptapi/popup.html"
     },
     "permissions": [

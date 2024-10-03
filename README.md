@@ -4,7 +4,7 @@
 
 # Buzz AI
 
-Buzz AI is your personal AI assistant that makes online shopping easier with Just your voice to navigate and explore.
+Buzz AI is a chrome extension and your personal AI assistant that makes online shopping easier with Just your voice to navigate and explore.
 
 # Inspiration
 
