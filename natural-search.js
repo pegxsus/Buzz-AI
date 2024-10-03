@@ -19,7 +19,7 @@ container.innerHTML = `<span class="natural-search__bot-msg"></span>
 <textarea class="natural-search__input" id="natural-search__input" placeholder="What are you looking for?"></textarea>
 <input type="checkbox" style="display: none" id="natural-search__microphone-checkbox" class="natural-search__microphone-checkbox">
 <label class="natural-search__microphone-btn" for="natural-search__microphone-checkbox">
-    <img src="${chrome.runtime.getURL("/assets/microphone-80.png")}" class="natural-search__microphone-icon">
+    <img src="${chrome.runtime.getURL("/assets/mic.png")}" class="natural-search__microphone-icon">
 </label>
 `
 
