@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Clickless Verizon",
-    "description": "Navigate the Verizon website using only the power of your voice and natural language.",
+    "name": "Buzz AI",
+    "description": "Navigate the policybazaar website using only the power of your voice and natural language.",
     "version": "0.0.1",
     "icons": {
         "32": "logo/32x32.png",
@@ -12,7 +12,7 @@
     },
     "options_page": "settings/settings.html",
     "action": {
-        "default_title": "Clickless Verizon",
+        "default_title": "Buzz AI",
         "default_icon": "logo/32x32.png",
         "default_popup": "gptapi/popup.html"
     },
@@ -22,7 +22,7 @@
         "scripting"
     ],
     "host_permissions": [
-        "https://www.verizon.com/*"
+        "https://www.policybazaar.com/*"
     ],
     "background": {
         "service_worker": "service-worker.js"
@@ -30,12 +30,12 @@
     "content_scripts": [{
         "js": ["gptapi/apiKey.js", "gptapi/chatgpt.js", "website-sections.js","natural-search.js", "gptapi/content.js"],
         "css": ["natural-search.css"],
-        "matches": ["https://www.verizon.com/*"]
+        "matches": ["https://www.policybazaar.com/*"]
     }],
     "web_accessible_resources": [
         {
             "resources": ["assets/microphone-80.png", "assets/head.png", "assets/torso.png", "assets/hand.png"],
-            "matches": ["https://www.verizon.com/*"]
+            "matches": ["https://www.policybazaar.com/*"]
         }
     ]
 }
