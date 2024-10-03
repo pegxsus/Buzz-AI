@@ -53,8 +53,8 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
 
 let starterPromptSent = false;
 inputEl.addEventListener("focus", async () => {
-    if (window.location.href === "https://www.verizon.com/" && !starterPromptSent) {
-        await botSpeech("I am A.I.Ra. How can I help you today?");
+    if (window.location.href === "https://www.policybazaar.com/" && !starterPromptSent) {
+        await botSpeech("I am Buzz AI. How can I help you today?");
         starterPromptSent = true;
         mascot.startWaving(mascot.handL);
         await sleep(2000);
@@ -71,12 +71,12 @@ setTimeout(async () => { // animate placeholder text in input bar
     const prefix = "I am looking ";
 
     const placeholders = [
-        "to replace my old phone.",
-        "for prepaid plans.",
-        "for my lost phone.",
-        "for Verizon's roadside assistance.",
+        "for the best health insurance plans for a family of four.",
+        "for find health Insurance.",
+        "for find car insurance.",
+        "for the cheapest car insurance options for my Maruti Swift?",
         "to chat with customer service.",
-        "for benefits of switching to Verizon."
+        "How can I renew my car insurance online?"
     ]
 
     let idx = 0;
@@ -89,7 +89,7 @@ setTimeout(async () => { // animate placeholder text in input bar
         idx = (idx + 1) % placeholders.length;
         await sleep(2000);
     }
-    inputEl.placeholder = "Talk to A.I.Ra.";
+    inputEl.placeholder = "Talk to Buzz AI";
 
 }, 3000);
 

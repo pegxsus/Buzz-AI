@@ -25,8 +25,7 @@
         "https://www.verizon.com/*"
     ],
     "background": {
-        "service_worker": "service-worker.js",
-        "type": "module"
+        "service_worker": "service-worker.js"
     },
     "content_scripts": [{
         "js": ["gptapi/apiKey.js", "gptapi/chatgpt.js", "website-sections.js","natural-search.js", "gptapi/content.js"],
