@@ -7,9 +7,8 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // Importing and using functionality from external files is also possible.
 //importScripts('service-worker-utils.js')
-importScripts("gptapi/apiKey.js");
+importScripts("geminiai/apiKey.js");
 importScripts("pageDescriptions.js");
-importScripts("gptapi/chatgpt.js");
 importScripts("website-sections.js");
 
 // If you want to import a file that is deeper in the file hierarchy of your

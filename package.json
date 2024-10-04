@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@google-ai/generativelanguage": "^2.6.0"
+  }
+}
