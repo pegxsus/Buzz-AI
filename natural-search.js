@@ -72,11 +72,11 @@ setTimeout(async () => { // animate placeholder text in input bar
 
     const placeholders = [
         "for the best health insurance plans for a family of four.",
-        "for find health Insurance.",
+        "to find health Insurance.",
         "for find car insurance.",
         "for the cheapest car insurance options for my Maruti Swift?",
         "to chat with customer service.",
-        "How can I renew my car insurance online?"
+        "to renew my car insurance online"
     ]
 
     let idx = 0;
