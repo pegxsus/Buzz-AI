@@ -59,8 +59,8 @@ function addPromptedArg(obj, callback) {
 }
 
 const websiteSections = {
-    "Cart": "https://www.verizon.com/sales/prepaid/expresscart.html?promohub=true",
-    "Smartphones": "https://www.verizon.com/smartphones/prepaid/",
+    "Term Insurance": "https://termlife.policybazaar.com/newform",
+    "Travel Insurance": "https://travel.policybazaar.com/?newpq=1",
     "Billing Information": {
         url: "https://www.verizon.com/sales/prepaid/aboutyourself.html",
         background: async () => {

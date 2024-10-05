@@ -3,12 +3,16 @@
 // It would correspond to the background script in chrome extensions v2.
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+import { GenerativeLanguageClient } from '@google-ai/generativelanguage';
 
 
-// Importing and using functionality from external files is also possible.
-//importScripts('service-worker-utils.js')
-importScripts("geminiai/apiKey.js");
+// importScripts("geminiai/apiKey.js");
+// importScripts("pageDescriptions.js");
+// importScripts("website-sections.js");
+
+importScripts("gptapi/apiKey.js");
 importScripts("pageDescriptions.js");
+importScripts("gptapi/chatgpt.js");
 importScripts("website-sections.js");
 
 // If you want to import a file that is deeper in the file hierarchy of your
