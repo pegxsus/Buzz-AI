@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Buzz AI",
-    "description": "Navigate the policybazaar website using only the power of your voice and natural language.",
+    "description": "Navigate the apple website using only the power of your voice and natural language.",
     "version": "0.0.1",
     "icons": {
         "32": "logo/32x32.png",
@@ -22,7 +22,7 @@
         "scripting"
     ],
     "host_permissions": [
-        "https://www.policybazaar.com/*"
+        "https://www.apple.com/*"
     ],
     "background": {
         "service_worker": "service-worker.js"
@@ -30,12 +30,12 @@
     "content_scripts": [{
         "js": ["gptapi/apiKey.js", "gptapi/chatgpt.js", "website-sections.js","natural-search.js", "gptapi/content.js"],
         "css": ["natural-search.css"],
-        "matches": ["https://www.policybazaar.com/*"]
+        "matches": ["https://www.apple.com/*"]
     }],
     "web_accessible_resources": [
         {
             "resources": ["assets/mic.png", "assets/head.png", "assets/torso.png", "assets/hand.png"],
-            "matches": ["https://www.policybazaar.com/*"]
+            "matches": ["https://www.apple.com/*"]
         }
     ]
 }

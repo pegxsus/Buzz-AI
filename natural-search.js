@@ -53,7 +53,7 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
 
 let starterPromptSent = false;
 inputEl.addEventListener("focus", async () => {
-    if (window.location.href === "https://www.policybazaar.com/" && !starterPromptSent) {
+    if (window.location.href === "https://www.apple.com/" && !starterPromptSent) {
         await botSpeech("I am Buzz AI. How can I help you today?");
         starterPromptSent = true;
         mascot.startWaving(mascot.handL);
@@ -73,9 +73,9 @@ setTimeout(async () => { // animate placeholder text in input bar
     const placeholders = [
         "for the best health insurance plans for a family of four.",
         "to find health Insurance.",
-        "for find car insurance.",
-        "for the cheapest car insurance options for my Maruti Swift?",
-        "to chat with customer service.",
+        "to find car insurance.",
+        "for the cheapest car insurance options for my Maruti Swift",
+        "to chat with the customer service.",
         "to renew my car insurance online"
     ]
 
