@@ -59,8 +59,9 @@ function addPromptedArg(obj, callback) {
 }
 
 const websiteSections = {
-    "Term Insurance": "https://termlife.policybazaar.com/newform",
-    "Travel Insurance": "https://travel.policybazaar.com/?newpq=1",
+    "Iphone 16": "https://www.apple.com/iphone-16/",
+    "Iphone 16 Pro": "https://www.apple.com/iphone-16-pro/",
+    "Appleq Insurance": "https://www.apple.com/support/products/",
     "Billing Information": {
         url: "https://www.verizon.com/sales/prepaid/aboutyourself.html",
         background: async () => {
@@ -73,8 +74,8 @@ const websiteSections = {
             await sendBotMsg("Care for additional accessories?");
         }
     },
-    "Apple iPhone 14": {
-        url: "https://www.verizon.com/smartphones/apple-iphone-14-prepaid/",
+    "Apple iPhone 16": {
+        url: "https://www.apple.com/iphone-16/",
         background: async () => {
             await sendBotMsg("Do you have a preferred phone color? Storage capacity?");
 
@@ -89,7 +90,7 @@ const websiteSections = {
             }, async (color) => {
                 colorSet = true;
                 onReady();
-                await execute("Apple iPhone 14", "setColor", [color.charAt(0).toUpperCase() + color.slice(1)])
+                await execute("Apple iPhone 16", "setColor", [color.charAt(0).toUpperCase() + color.slice(1)])
             });
 
             addPromptedArg({
@@ -100,7 +101,7 @@ const websiteSections = {
             }, async (storage) => {
                 storageSet = true;
                 onReady();
-                await execute("Apple iPhone 14", "setStorage", [storage]);
+                await execute("Apple iPhone 16", "setStorage", [storage]);
             });
 
             const onReady = async () => {
@@ -110,7 +111,7 @@ const websiteSections = {
                     await sleep(1000);
                     await sendBotMsg("Great choice! If you're ready to buy, just enter your zip code.");
                     await sleep(4000);
-                    await execute("Apple iPhone 14", "addToCart")
+                    await execute("Apple iPhone 16", "addToCart")
                 }
             }
         },

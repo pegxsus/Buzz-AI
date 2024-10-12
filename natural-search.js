@@ -71,12 +71,12 @@ setTimeout(async () => { // animate placeholder text in input bar
     const prefix = "I am looking ";
 
     const placeholders = [
-        "for the base model Iphone",
-        "to buy Laptop for editing purposes",
+        "to buy the base Iphone model",
+        "to buy macbook for editing purposes",
         "to buy airpods",
-        "to know about apple care",
+        "to learn more about apple care",
         "to chat with the customer service.",
-        "to return my device"
+        "to trade in my old device"
     ]
 
     let idx = 0;
